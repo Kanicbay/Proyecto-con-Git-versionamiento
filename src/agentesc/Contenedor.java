@@ -31,4 +31,11 @@ public class Contenedor {
         }
     }
     
+    public void crearHijos(String alias, Object[] conocimiento){
+        try{
+            agentContainer.createNewAgent(alias, Agente1.class.getName(), conocimiento).start();
+        } catch (StaleProxyException ex) {
+            Logger.getLogger(Contenedor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
