@@ -2,7 +2,7 @@
 package agentes;
 
 import agentesc.Contenedor;
-import agentesc.GUIPredictor;
+import agentesc.GUIPredictor2;
 import jade.core.Agent;
 import jade.core.behaviours.Behaviour;
 import jade.core.behaviours.CyclicBehaviour;
@@ -34,7 +34,7 @@ public class Agente3 extends Agent{
         boolean terminado = false;
         @Override
         public void action() {
-            GUIPredictor gui = (GUIPredictor)getArguments()[0];
+            GUIPredictor2 gui = (GUIPredictor2)getArguments()[0];
             ACLMessage msj = blockingReceive();
             String ruta = "\"" + System.getProperty("user.dir")+"\\src\\python\\\\cargarModelo.py"+"\"";
             //Enviar path de la imagen

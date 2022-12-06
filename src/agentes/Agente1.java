@@ -1,7 +1,7 @@
 package agentes;
 
 import agentesc.Contenedor;
-import agentesc.GUIPredictor;
+import agentesc.GUIPredictor2;
 import jade.core.Agent;
 import jade.core.behaviours.Behaviour;
 import jade.core.behaviours.CyclicBehaviour;
@@ -29,7 +29,7 @@ public class Agente1 extends Agent {
         @Override
         public void action() {
             
-            GUIPredictor gui = (GUIPredictor)getArguments()[0];
+            GUIPredictor2 gui = (GUIPredictor2)getArguments()[0];
             gui.setVisible(true);
             
             while(gui.isIspressBotonImagen()==true){
