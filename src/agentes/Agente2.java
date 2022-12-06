@@ -1,6 +1,6 @@
 package agentes;
 
-import agentesc.GUIPredictor;
+import agentesc.GUIPredictor2;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
@@ -30,7 +30,7 @@ public class Agente2 extends Agent {
         @Override
         public void action() {
             try {
-                GUIPredictor gui = (GUIPredictor)getArguments()[0];
+                GUIPredictor2 gui = (GUIPredictor2)getArguments()[0];
                 ACLMessage msj = blockingReceive();
                 String idC = msj.getConversationId();
                 if(idC.equalsIgnoreCase("COD0102")){
