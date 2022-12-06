@@ -69,9 +69,11 @@ public class Agente3 extends Agent{
                 Logger.getLogger(Agente3.class.getName()).log(Level.SEVERE, null, ex);
             }
             
+        }
             @Override
             public boolean done() {
                 return terminado;
             }
         }
-}
+
+    }
