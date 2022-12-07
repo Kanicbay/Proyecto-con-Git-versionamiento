@@ -3,8 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/djdan/OneDrive/Documentos/Ingenieria%20Software%202/Proyecto-con-Git-versionamiento/src/agentesc/AgentesC.java</file>
             <file>file:/C:/Users/djdan/OneDrive/Documentos/Ingenieria%20Software%202/Proyecto-con-Git-versionamiento/src/agentesc/Contenedor.java</file>
+=======
+            <file>file:/C:/Users/fabri/OneDrive/Documentos/Universidad/Inge%20soft%202/Expo/Proyecto-con-Git-versionamiento/src/agentes/Mensajes.java</file>
+            <file>file:/C:/Users/fabri/OneDrive/Documentos/Universidad/Inge%20soft%202/Expo/Proyecto-con-Git-versionamiento/src/agentes/Agente3.java</file>
+>>>>>>> 15975d5d141b3320e22744e945d3cefd0da52019
         </group>
     </open-files>
 </project-private>

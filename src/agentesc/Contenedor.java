@@ -22,7 +22,7 @@ public class Contenedor {
     
     private void agregarAgentes(){
         try{
-            Object[] gui = new Object[]{new GUIPredictor()};
+            Object[] gui = new Object[]{new GUIPredictor2()};
             agentContainer.createNewAgent("AG GUI", Agente1.class.getName(), gui).start();
             agentContainer.createNewAgent("AG IMAGEN", Agente2.class.getName(), gui).start();
             agentContainer.createNewAgent("AG RESULTADOS", Agente3.class.getName(), gui).start();
